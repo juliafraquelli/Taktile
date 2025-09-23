@@ -2,6 +2,8 @@
 
 This project contains two [Camunda Connectors](https://docs.camunda.io/docs/next/components/connectors/introduction-to-connectors/) to utilize the [Taktile](https://taktile.com) API to execute decisions and retrieve their results.
 
+![Taktile Async Call](img/taktileAsyncCall.png)
+
 ## Required Connector Secrets
 Usage of these connectors requires the following connector secrets to be present:
 
