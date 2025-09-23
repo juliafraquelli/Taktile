@@ -1,6 +1,6 @@
 # Taktile Connector
 
-This project contains two connectors to utilize the [Taktile](https://taktile.com) API to execute decisions and retrieve their results.
+This project contains two [Camunda Connectors](https://docs.camunda.io/docs/next/components/connectors/introduction-to-connectors/) to utilize the [Taktile](https://taktile.com) API to execute decisions and retrieve their results.
 
 ## Required Connector Secrets
 Usage of these connectors requires the following connector secrets to be present:
@@ -19,7 +19,7 @@ Usage of these connectors requires the following connector secrets to be present
 | Parameter | Description  |  Example |
 |---|---|---|
 | Flow Slug  |  The Taktile Decision Flow Id | camunda-test  |
-|  Payload|  The data to be past to the Decision Flow |  |
+|  Payload|  The data to be passed to the Decision Flow |  |
 | Decision Flow Version (Optional)  |  the version tag | v1.0 |
 | Entity ID (Optional) | The Taktile Entity Id (if defined) | |
 | Asynchronous Execution Mode | Force asynchronous execution, requires the Taktile Async Result Connector | |
