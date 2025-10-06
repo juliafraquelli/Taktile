@@ -10,7 +10,7 @@ Usage of these connectors requires the following connector secrets to be present
 | Secret name | Description  |  Example |
 |---|---|---|
 |TAKTILE_API_KEY | the API key of your Taktile project | |
-|TAKTILE_API_ROOT_URL|the url pointing to your environment must have a **trailing slash (/)**| https://{custom-URL}.taktile.com/ |
+|TAKTILE_API_ROOT_URL|the url pointing to your environment must have a **trailing slash (/)**| https://{root-URL}.decide.taktile.com/ |
 |TAKTILE_ENVIRONMENT_URL_PART| last part of the URL pointing to either sandbox or production system | ```/sandbox/decide``` OR ```/decide``` |
 
 
@@ -20,11 +20,11 @@ Usage of these connectors requires the following connector secrets to be present
 
 | Parameter | Description  |  Example |
 |---|---|---|
-| Flow Slug  |  The Taktile Decision Flow Id | camunda-test  |
-|  Payload|  The data to be passed to the Decision Flow |  |
+| Flow Slug |  The Taktile Decision Flow Id | camunda-test  |
+| Payload |  The data to be passed to the Decision Flow |  |
 | Decision Flow Version (Optional)  |  the version tag | v1.0 |
-| Entity ID (Optional) | The Taktile Entity Id (if defined) | |
-| Asynchronous Execution Mode | Force asynchronous execution, requires the Taktile Async Result Connector | |
+| Entity ID | The Taktile Entity ID | |
+| Asynchronous Execution Mode | Force asynchronous execution, requires the Taktile Async Result Connector | "sync" or "async" |
 | Result Expression  |  can be used to map the decision result data into process variables |   ```{ decisionId: response.body.metadata.decision_id, decisionData: response.body.data }```|
 
 
