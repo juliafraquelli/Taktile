@@ -10,7 +10,7 @@ Usage of these connectors requires the following connector secrets to be present
 | Secret name | Description  |  Example |
 |---|---|---|
 |TAKTILE_API_KEY | the API key of your Taktile project | |
-|TAKTILE_API_ROOT_URL|the url pointing to your environment must have a **trailing slash (/)**| https://sandbox.55f9f424.decide-2.taktile.com/ |
+|TAKTILE_API_ROOT_URL|the url pointing to your environment must have a **trailing slash (/)**| https://{custom-URL}.taktile.com/ |
 |TAKTILE_ENVIRONMENT_URL_PART| last part of the URL pointing to either sandbox or production system | ```/sandbox/decide``` OR ```/decide``` |
 
 
